@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: fira-code;
+    background-color:#282c33 ;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: fira-code;
+    src: url("../assets/fonts/FiraCode-VariableFont_wght.ttf");
+}
+
+button , input , textarea , select {
+    font-family: fira-code;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+

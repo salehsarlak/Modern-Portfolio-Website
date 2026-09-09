@@ -1,0 +1,210 @@
+/* ========     Projects style    */
+
+.projects-container{
+    width: 70%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+
+
+
+
+/* ==========     cards     ==============*/
+
+.projects-list{
+    
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 40px;
+    gap: 1rem;
+
+}
+
+
+
+.projects-list .project-card{
+
+    border: 1px solid #abb2bf ;
+    border-radius: 4px;
+}
+
+
+
+
+.projects-list .project-card .project-img{
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    
+}
+
+
+.projects-list .project-card .project-tech{
+
+    border-block: 1px solid #abb2bf;
+    padding: 0.5rem;
+    >span{
+        
+        color: #abb2bf;
+    }
+
+
+}
+
+.title-box .title::after{
+    display: none;
+}
+
+.projects-list .project-card .project-info-box{
+     
+    padding: 16px 16px 20px 16px ;
+    >.project-text{
+        margin-block: 1rem;
+        color: #abb2bf;
+    }
+
+    >.project-actions{
+        
+        margin-top: 35px;
+        display: flex;
+        gap: 1rem;
+
+        >a{
+            padding: 0.4rem 1rem;
+            border: 1px solid #C778DD;
+            transition: 0.3s;
+
+        }
+
+        >:nth-of-type(2){
+            color: #abb2bf;
+           border-color: #abb2bf; 
+
+        }
+
+        >:nth-of-type(1):hover{
+            background-color: rgba(199, 120, 221 , 0.200);
+        }
+            
+            
+
+        
+
+    }
+}
+       
+
+    /* ========= small projects ======== */
+
+    .small-container{
+        width: 70%;
+        margin: 6rem auto;
+    }
+
+ 
+
+    
+/*========      Skills        ===========*/
+
+.slills-container{
+    width: 100%;
+    margin: 1rem auto;
+     
+}
+
+
+.slills-container .title-box .title::after{
+    width: 300px;
+}
+
+
+.slills-container .skills-list-wrapper{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+
+.slills-container .skills-list-wrapper .skills-column{
+   
+       width: 100%;
+}
+
+
+
+.slills-container .skills-list-wrapper .skills-column .skills-box{
+    border: 1px solid #abb2bf;
+     margin-bottom: 20px;
+}
+
+
+
+.slills-container .skills-list-wrapper .skills-column .skills-box .box-header{
+    border-bottom: 1px solid #abb2bf;
+    padding: 0.5rem;
+    color: #abb2bf;
+}
+
+
+
+
+.slills-container .skills-list-wrapper .skills-column .skills-box .box-content{
+
+    color: #abb2bf;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.9rem;
+
+    >.project-link{
+            padding: 0.4rem 1rem;
+            border: 1px solid #C778DD;
+            transition: 0.3s;
+            &:hover{
+                background: #c778dd19;
+            }
+
+    }
+
+    >.h44{
+        color: white;
+        width: 100%;
+        font-weight: 500;
+        font-size: 24px;
+        display: block;
+    }
+    
+
+}
+
+        /* ======== Footer ========== */
+
+       .main-footer{
+        margin: 4rem auto;
+
+       }
+
+       /* ========= title ======== */
+
+       .th{
+        width: 70%;
+        margin: 2rem auto;
+        margin-top: 7rem;
+        >.t-title{
+            font-weight: 500;
+            >.slash{
+                color: #C778DD;
+            }
+        }
+        .para{
+            margin-top: 14px;
+        }
+       }
+
