@@ -1,0 +1,96 @@
+/* ======= Contact container ======== */
+
+.contact-container{
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+    >.title-box{
+        .title::after{
+            width: 200px;
+        }
+    }
+
+    .contact-wrapper{
+        display: flex;
+        justify-content: space-between;
+        >.cs{
+            width: 50%;
+        }
+
+        >.left-section {
+            >.contact-description{
+                margin-bottom: 2rem;
+                color: #abb2bf;
+            }
+        }
+
+        .right-section{
+    text-align: right;
+    align-self: flex-end;
+            >.message-box{
+                    border: 1px solid white;
+                    display: inline-block;
+                    padding: 1.2rem;
+                    text-align: left;
+
+                    >.social-list{
+                        display: flex;
+                        margin-top: 15px;
+                        flex-direction: column;
+                        gap: 14px;
+                        >.social-link{
+                            
+                            >.aa{
+                                color: #abb2bf;
+                                transition: 1s;
+                                &:hover{
+                                    color: white;
+                                }
+                            }
+                        }
+                    } 
+                    
+                    
+                        
+                    
+            }
+        }
+    }
+
+}
+
+.contact-container .contact-shape{
+    position: absolute;
+            left: -26%;
+            top: 300px;
+}
+
+
+.others{
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    gap: 30px;
+    >.pg{
+        color: #abb2bf;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    
+}
+
+
+.main-footer{
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.hr{
+    border: none;
+    height: 1px;
+    background-color: #abb2bf78;
+    margin-top: 5rem;
+}

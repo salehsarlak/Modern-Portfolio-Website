@@ -1,0 +1,233 @@
+.th{
+        width: 70%;
+        margin: 2rem auto;
+        margin-top: 7rem;
+        >.t-title{
+            font-weight: 500;
+            >.slash{
+                color: #C778DD;
+            }
+        }
+        .para{
+            margin-top: 14px;
+        }
+       }
+
+
+       .about-container{
+    
+    width: 70%;
+    position: relative;
+    margin: 7rem auto;
+}
+
+
+.about-container .title-box .title::after{
+    width: 200px
+}
+
+
+.about-container .about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.about-container .about-wrapper .ab{
+    width: 50%;
+}
+
+
+
+.about-container .about-wrapper .left-section{}
+
+
+
+.about-container .about-wrapper .left-section .about-description{
+    color: #abb2bf;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.about-container .about-wrapper .left-section .about-btn{
+    border: 1px solid #C778DD;
+    background: rgba(199, 120, 221 ,  0.2);
+    padding: 8px 12px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: 0.3s;
+    
+    &:hover{
+        background: none
+    }
+}
+
+
+
+
+
+
+.about-container .about-wrapper .right-section{
+
+
+    text-align: right;
+    position: relative;
+
+}
+
+
+
+.about-container .about-wrapper .right-section .about-soufi-img{
+    
+    width: 80%;
+    border-bottom: 1px solid #C778DD;
+    margin-top: -30%;
+}
+
+.about-container .about-wrapper .right-section .about-second-shape{
+    position: absolute;
+    right: 35px;
+    bottom: 40;
+    z-index: -1;
+    width: 20%;
+}
+
+    /* about shape */
+    .about-container .about-shape{
+        width: 150px;
+        height: 150px;
+        border: 1px solid #abb2bf;
+        position: absolute;
+        right: -29%;
+        bottom: 10px;
+    }
+
+
+        /*========      Skills        ===========*/
+
+.slills-container{
+    width: 70%;
+    margin: 10rem auto;
+    margin-top: 150px;
+     
+}
+
+
+.slills-container .title-box .title::after{
+    width: 300px;
+}
+
+
+.slills-container .skills-list-wrapper{
+    display: flex;
+    gap: 1rem;
+    /* background: red; */
+    
+}
+
+
+
+
+.slills-container .skills-list-wrapper .skills-column{
+       width: 100%;
+       display: flex;
+       gap: 30px;
+       
+}
+
+
+
+.slills-container .skills-list-wrapper  .skills-box{
+    border: 1px solid #abb2bf;
+     margin-bottom: 20px;
+     width: 20%;
+     height: fit-content;
+    }
+
+
+
+.slills-container .skills-list-wrapper  .skills-box .box-header{
+    border-bottom: 1px solid #abb2bf;
+    padding: 0.5rem;
+    
+}
+
+
+
+
+.slills-container .skills-list-wrapper  .skills-box .box-content{
+
+    color: #abb2bf;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.8rem;
+    
+
+}
+
+
+/* ============= facs -============= */
+
+.facts-main{
+    width: 70%;
+    margin: 0rem auto;
+    margin-bottom: 5rem;
+    position: relative;
+    >.cmain{
+        display: flex;
+        justify-content: space-between;
+        
+        
+        >.ps{
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: relative;
+            >.par{
+                display: inline-block;
+                padding: 9px 8px;
+                border: 1px solid #abb2bf;
+                font-size: 15px;
+                color: #abb2bf;
+                transition: 0.3s;
+
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+
+        >.imgs{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        
+        
+    }
+
+    &::after{
+                content: '';
+                border: 1px solid white;
+                width: 300px;
+                height: 120px;
+                position: absolute;
+                right: -43%;
+                bottom: -30px;
+                
+            }
+}
+
+
+.main-footer{
+    margin: 2rem auto;
+    margin-top: 6rem;
+}

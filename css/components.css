@@ -1,0 +1,198 @@
+/* =======  HEADER  =========== */
+
+.main-header {
+    width: 100%;
+    padding: 25px 15%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background: #282c33;
+    z-index: 3;
+    top: 0;
+
+} 
+
+.main-header .logo-wrapper{
+    display: flex;
+    gap: 6px;
+}   
+
+/*===== navigation - list*/
+
+
+.main-header .nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.main-header .nav-list .nav-link{ 
+
+    padding: 0 0.5rem;
+    color: #abb2bf;
+}
+
+
+
+/* Hover effects */
+.main-header .nav-list .nav-link:hover{
+    color: white;
+    transition: all 0.3s;
+}
+
+
+.main-header .nav-list .nav-link .sharp-sign{
+
+    color: #c778dd;
+}
+      
+
+
+/* ======== active link ======*/
+
+.main-header .nav-list .nav-link.active{
+    color: white;
+}
+
+.title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+.title-box .title{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 400;
+    position: relative;
+}
+
+
+
+.title-box .title .title-hilight{
+    color: #c778dd;
+}
+
+
+
+/* ================================================================================ */
+
+
+/* ====== Fixed Icons =====  */
+
+.socials-container{
+    left: 30px;
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    top: 0;
+
+
+>.social-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+            >.social-link{
+                display: block;
+                >a{
+                    >svg{
+                        transition: 0.5s;
+                        &:hover{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+    >.social-line{
+            width: 1.6px;
+            margin-bottom: 10px;
+            height: 150px;
+            background: #abb2bf97;
+    }
+
+        
+}
+
+
+
+/* ============================================================================ */
+
+
+    /* ======= footer  ================ */
+
+    .main-footer{
+    width: 70%;
+    >.logo-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+
+    >.cp-text{
+        width: 100%;
+        text-align: center;
+        color: #abb2bf;
+        margin-top: 3rem;
+        font-size: 14px;
+        >.flink{
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+/* ============================================================================ */
+
+
+
+
+
+/*=============   Purple line    ============ */
+
+.title-box .title::after{
+    content: "";
+    width: 400px;
+    height: 2px;
+    background: #C778DD;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 108%;
+}
+
+
+.title-box .view-all{
+    transition: color 0.3s;
+}
+
+ .title-box .view-all:hover{
+    color: #C778DD;
+}
+
+
+.th{
+        width: 70%;
+        margin: 2rem auto;
+        margin-top: 7rem;
+        >.t-title{
+            font-weight: 500;
+            >.slash{
+                color: #C778DD;
+            }
+        }
+        .para{
+            margin-top: 14px;
+        }
+       }
